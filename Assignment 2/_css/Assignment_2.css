@@ -1,0 +1,55 @@
+/*Mugiesshan Anandarajah*/
+form {
+	border: thick solid black;
+	background: red;
+	position: absolute;
+	left: 3em;
+	top: 10em;
+	padding-right: 2em;
+	padding-bottom: 2em;
+}
+
+legend {
+	padding-bottom: 1em;
+}
+
+.input {
+	position: absolute;
+	left: 9em;
+}
+
+#name {
+	display: none;
+	text-align: center;
+	font-size: 2em;
+}
+
+#color {
+	position: absolute;
+	bottom: 3em;
+}
+
+#day {
+	position: absolute;
+	left: 13em;
+}
+
+#button {
+	border: thin solid yellow;
+	background-color: pink;
+	position: absolute;
+	left: 7em;
+}
+
+#sun {
+	display: none;
+	position: relative;
+	width: 10em;
+	height: 10em;
+	top: 40em;
+	left: 10em;
+	
+}
+/*background: rgba(0, 0, 35, 1); night settings
+ * background: rgba(0, 225, 255, 1); day settings
+ */

@@ -1,0 +1,36 @@
+<!--Mugiesshan Anandarajah-->
+<!DOCTYPE HTML>
+
+<html id = "card">
+	<head>
+		<meta charset="UTF-8">
+		<title>Birthday Card</title>
+		<link rel = "stylesheet" href = "_css/Assignment_2.css" media = "(min-width: 320px) and (max-width: 480px)">
+	</head>
+	<body>
+		<form id = "form" name = "cardInfo" method = "POST">
+			<h2>Birthday Card Generator</h1>
+			<legend>
+				<a>Recipient's Name:</a>
+				<input class = "input" name = "fname" type = "text"><br>
+			</legend>
+			<legend>
+				<a>Number of stars: </a>
+				<input class = "input" name = "star" type = "number"><br>
+			</legend>
+			<legend>
+				<a>Night or Day? </a>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class = "input" type = "radio" name = "check">night
+				&nbsp;&nbsp;&nbsp;&nbsp;<input class = "input" id = "day" type = "radio" name = "check">day<br>
+			</legend>
+			<legend>
+				<a>Text Colour: </a>
+				<input class = "input" id = "color" name = "color" type = "color">
+			</legend>
+			<input id = "button" type = "button" value = "Generate Card">
+		</form>
+		<section id = "name"></section>
+		<img id = "sun" src = "_images/sun.png">
+		<script src = "_js/Assignment2.js"></script>
+	</body>
+</html>
