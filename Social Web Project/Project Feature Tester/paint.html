@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Paint</title>
+		<style>
+			canvas {
+				display: none;
+				border: thin solid black;
+				background-image: url("canvas.jpg");
+				background-size: cover;
+				cursor: crosshair;
+			}
+			
+			img {
+				/*display: none;*/
+			}
+			
+			#erase {
+				display: inline;
+			}
+		</style>
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="paintFunc.js"></script>
+		<script>
+			id = "#canvas0,#canvas1,#test";
+		
+			function newCanvas() {
+				/*var canvas = document.createElement("CANVAS");
+				var br = document.createElement("BR");
+				var br2 = document.createElement("BR");
+				var canvas2 = document.createElement("CANVAS");
+				var button = document.createElement("INPUT");
+				var jquery = document.createElement("SCRIPT");
+				var script = document.createElement("SCRIPT");
+				var setid = document.createElement("SCRIPT");
+				var code = document.createTextNode("id = '#canvas0,#canvas1';alert('Hello World');");
+				canvas.id = "canvas0";
+				canvas2.id = "canvas1";
+				canvas.width = 500;
+				canvas.height = 300;
+				canvas2.width = 500;
+				canvas2.height = 300;
+				canvas.setAttribute("onmouseover", "changeColor();setCanvas('canvas0');");
+				canvas2.setAttribute("onmouseover", "changeColor();setCanvas('canvas1');");
+				button.type = "button";
+				button.value = "Submit";
+				button.setAttribute("onclick", "importImage();");
+				jquery.src = "http://code.jquery.com/jquery-1.11.0.min.js";
+				
+				script.src = "paintFunc.js";
+				setid.appendChild(code);
+				document.body.appendChild(canvas);
+				document.body.appendChild(br);
+				document.body.appendChild(canvas2);
+				document.body.appendChild(br2);
+				document.body.appendChild(button);
+				document.body.appendChild(jquery);
+				document.body.appendChild(script);
+				document.body.appendChild(setid);*/
+				//var br = document.createElement("BR");
+				var x = document.getElementsByClassName("canvas0");
+				for (var i = 0; i < x.length; i++) {
+					var br = document.createElement("BR");
+					document.getElementById("form").appendChild(x[i]);
+					document.getElementById("form").appendChild(br);
+					x[i].style.display = "inline";
+				}
+				document.getElementById("form").appendChild(document.getElementById("canvas1"));
+				document.getElementById("canvas1").style.display = "inline";
+			}
+			
+			function attachImg() {
+				var image = document.createElement("img");
+				image.src = document.getElementById("attachFile").value;
+			}
+			
+			window.onload = function() {
+				var canvas = document.getElementById("test");
+				var ctx = canvas.getContext("2d");
+				var img = document.getElementById("scream");
+				ctx.drawImage(img,10,10);
+			};
+		</script>
+	</head>
+	<body>
+		<form id="form" name="form" method="POST">
+			<input width="50" height="150" id="color" name="input" type="color">
+			<button type="button" onclick="eraseTransistor();"><img id="erase" src="eraser.png"></button>
+			<input type="button" value="Convert" onclick="convertCanvas();">
+			<input type="button" value="Clear" onclick="clearCanvas();">
+			<input type="button" value="New Canvas" onclick="newCanvas();">
+			<input type="file" id="attachFile">
+			<button type="button" onclick="attachImg();">Attach</button>
+			<br>
+		</form>
+		<br>
+		<img id="scream" src="eraser.png">
+		<canvas id="canvas0" class="canvas0" width="500" height="300" onmouseover="setCanvas('canvas0');"></canvas><br>
+		<!--<canvas id="canvas0" class="canvas0" width="500" height="300" onmouseover="setCanvas('canvas0');"></canvas><br>-->
+		<canvas id="canvas1" width="500" height="300" onmouseover="setCanvas('canvas1');"></canvas><br>
+		<form method="POST">
+			<canvas id="test" width="500" height="300" onmouseover="setCanvas('test');" style='display: inline';></canvas>
+		</form>
+		<script>
+			var x = document.getElementsByClassName("canvas0");
+		</script>
+	</body>
+</html>

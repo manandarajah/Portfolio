@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Canvas</title>
+	</head>
+	<body>
+		<canvas width="500" height="300" style="border: 1px solid black">
+			
+		</canvas>
+		<script>
+			var d = document.getElementsByTagName("canvas")[0];
+			var dx = d.getContext("2d");
+			dx.beginPath();
+			dx.arc(50, 100, 20, 0, 2*Math.PI);
+			dx.fillStyle = "black";
+			dx.fill();
+			dx.strokeStyle = "blue";
+			dx.stroke();
+		</script>
+	</body>
+</html>
