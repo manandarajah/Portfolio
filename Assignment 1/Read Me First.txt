@@ -1,0 +1,21 @@
+/**Welcome to Trivial Hangman**/ 
+
+This game requires data from the ".txt" files
+in the folder "_txt". There are four files used in the game:
+
+1. "Questions.txt"
+2. "Answers.txt"
+3. "Options.txt"
+4. "Passage.txt"
+
+Within each of these files, if you want to separate questions, answers, options,
+& passages, put a "." in between so the computer knows where to separate text.
+
+Note: 1. It is only "Questions.txt" that you don't put a "." at the very
+	last question, but it's critical to do it in all the other ".txt" files.
+
+      2. If the game doesn't launch well in Chrome, launch in Firefox or Internet
+	Explorer.
+
+      3. Don’t add the “’” or any special characters in any “.txt” files as it brings up another value other than the intended.
+	Instead, joined the letters together. e.g "don't" into "dont"

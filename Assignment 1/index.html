@@ -1,0 +1,61 @@
+<!--The HTML file contains text, images, and buttons, all of which are altered by the functions in Assignment_1.js, Mugiesshan Anandarajah-->
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<title>Trivial Hangman</title>
+		<link rel = "stylesheet" href = "_css/Assignment_1.css">
+		<link href="_css/mobile.css" rel="stylesheet" media = "screen and (min-width: 0px) and (max-width: 480px)">
+	</head>
+	<body>
+		<section id = "clear">
+			<img id = "board" src = "_images/HangmanBoard.png">
+			<img id = "head" src = "_images/head.png">
+			<img id = "body" src = "_images/body.png">
+			<img id = "RA" src = "_images/rightA&leftL.png">
+			<img id = "LL" src = "_images/rightA&leftL.png">
+			<img id = "LA" src = "_images/leftA&rightL.png">
+			<img id = "RL" src = "_images/leftA&rightL.png">
+			<section id = "titleScreen">
+				<h1 id = "title">Welcome to Trivial Hangman</h1>
+				<input id = "enter" type = "button" value = "ENTER" onclick = "rules();">
+			</section>
+			<section id = "instructions">
+				<h1 id = "hin">Instructions</h1>
+				<p id = "fin">Here's how the game works. It's basically Hangman but in this game, <br>
+					instead of guessing a letter, you'll answer a trivia question. If <br>
+					your answer is correct, you'll unlock a random letter of the passage.<br>
+					If not, then parts of the stick man will be drawn. Like the original Hangman game, <br>
+					you'll be given an option to solve the whole piece, in which case you'll <br>
+					be given a prompt to type your answer. If you solved the whole passage, <br>
+					then you've won the whole game. If not then the game continues with a part <br>
+					of the stick man being drawn.
+				</p>
+				<input id = "start" type = "button" value = "Start" onclick = "start();">
+			</section>
+			<section id = "inGame"></section>
+			<input id = "quit" type = "button" value = "Quit" onclick = "gameOver();">
+			<input id = "next" type = "button" value = "Next" onclick = "check();">
+			<input id = "solve" type = "button" value = "Solve" onclick = "solve();">
+			<section id = "box">
+				<form name = "game">
+					<fieldset id = "fset">					
+						<legend><h1 id = "fheader"></h1></legend>
+						<legend id = "text"></legend>
+						<legend id = "options">
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = "radio" name = "radio" class = "radio"><label id = "option1"></label><br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = "radio" name = "radio" class = "radio"><label id = "option2"></label><br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = "radio" name = "radio" class = "radio"><label id = "option3"></label><br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = "radio" name = "radio" class = "radio"><label id = "option4"></label>
+						</legend>
+					</fieldset>
+				</form>
+			</section>
+			<section id = "passage"></section>
+			<section id = "answer"></section>
+		</section>
+		<p id = "gameover">Thank you for playing!</p>
+		<script src = "_js/Assignment_1.js"></script>
+	</body>
+</html>

@@ -1,0 +1,114 @@
+/*mobile.css displays the game in a mobile format, Mugiesshan Anandarajah*/
+input {
+	display: none;
+	position: relative;
+	width: 5em;
+	height: 2em;
+	border: thin solid black;
+	font-size: 1em;
+}
+
+fieldset {	
+	bottom: 7em;
+}
+
+#enter {
+	left: 12.9em;
+}
+
+#hin {
+	font-size: 3em;
+}
+
+#fin {
+	font-size: 1.5em;
+	bottom: 1em;
+}
+
+#start {
+	left: 12em;
+	bottom: 1em;
+}
+
+#inGame {
+	left: 7em;
+	top: 23em;
+	font-size: 1.2em;
+}
+
+#text {
+	font-size: 1.5em;
+}
+
+#options {
+	font-size: 1.5em;
+}
+
+#next {
+	top: 15em;
+	left: 22.5em;
+}
+
+#solve {
+	top: 15em;
+}
+
+#quit {
+	top: 17.5em;
+}
+
+#board {
+	width: 10em;
+	height: 100px;
+	position: relative;
+	left: 8em;
+	top: 17em;
+}
+
+#head {
+	top: 12.7em;
+	left: 0.9em;
+	width: 1em;
+	height: 1em;
+}
+
+#body {
+	top: 14.6em;
+	left: -0.4em;
+	width: 1em;
+	height: 2em;
+}
+
+#RA {
+	left: -2.1em;
+	top: 13.22em;
+	width: 1em;
+	height: 1em;
+}
+
+#LL {
+	left: -2.41em;
+	top: 15.6em;
+	width: 1em;
+	height: 1em;
+}
+
+#LA {
+	left: 12.1em;
+	top: 19em;
+	width: 1em;
+	height: 1em;
+}
+
+#RL {
+	left: -4.6em;
+	top: 15.6em;
+	width: 1em;
+	height: 1em;
+}
+
+#gameover {
+	top: 6em;
+	left: 1em;
+	font-size: 2.5em;
+}

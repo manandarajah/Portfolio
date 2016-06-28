@@ -1,0 +1,181 @@
+/*Assignment 1.css formats the tags in index.html to set the page display. The designs are altered by the Assignment_1.js, Mugiesshan Anandarajah*/
+html {
+	background-image: url(../_images/LinedPaper.png);
+	background-size: cover;
+}
+
+img {
+	display: none;
+}
+
+input {
+	display: none;
+	width: 5em;
+	height: 2em;
+	border: thin solid black;
+	font-size: 2em;
+	background: rgba(0, 0, 0, 0);
+}
+
+fieldset {	
+	border: thin solid black;
+	background-color: rgba(100%, 100%, 0%, 0.5);
+	position: relative;
+	bottom: 13em;
+}
+
+.radio {
+	display: inline;
+	width: 20px;
+	height: 20px;
+}
+
+#titleScreen {
+	position: relative;
+	top: 13em;
+}
+
+#title {
+	text-align: center;
+	font-size: 3em;
+}
+
+#enter {
+	position: relative;
+	left: 19em;
+}
+
+#instructions {
+	display: none;
+	text-align: center;
+	position: relative;
+	top: 0em;
+}
+
+#hin {
+	font-size: 5em;
+	color: #800000;
+}
+
+#fin {
+	font-size: 2em;
+	color: #000033;
+	position: relative;
+	bottom: 2em;
+}
+
+#start {
+	position: relative;
+	left: 19em;
+	bottom: 2.5em;
+}
+
+#inGame {
+	margin: auto;
+	padding: auto;
+	position: absolute;
+	left: 10.2em;
+	top: 10.5em;
+	font-size: 3em;
+}
+
+#text {
+	margin: auto;
+	padding: auto;
+	font-size: 2em;
+}
+
+#box {
+	margin: auto;
+	padding: auto;
+	display: none;
+}
+
+#options {
+	font-size: 2em;
+}
+
+#next {
+	margin: auto;
+	padding: auto;
+	position: absolute;
+	top: 9em;
+	left: 36.89em;
+}
+
+#solve {
+	margin: auto;
+	padding: auto;
+	position: absolute;
+	left: 1em;
+	top: 9em;
+}
+
+#quit {
+	margin: auto;
+	padding: auto;
+	position: absolute;
+	left: 1em;
+	top: 11.5em;
+}
+
+#passage {
+	display: none;
+	text-align: center;
+}
+
+#answer {
+	display: none;
+}
+
+#board {
+	width: 15em;
+	height: 200px;
+	position: relative;
+	left: 35em;
+	top: 17em;
+}
+
+#head {
+	position: relative;
+	top: 8.4em;
+	left: 24.2em
+}
+
+#body {
+	position: relative;
+	top: 12.6em;
+	left: 19.9em;
+}
+
+#RA {
+	position: relative;
+	left: 13.9em;
+	top: 9em;
+}
+
+#LL {
+	position: relative;
+	left: 13.5em;
+	top: 14.4em;
+}
+
+#LA {
+	position: absolute;
+	left: 41em;
+	top: 20em;
+}
+
+#RL {
+	position: relative;
+	left: 8.1em;
+	top: 14.5em;
+}
+
+#gameover {
+	display: none;
+	position: relative;
+	top: 3em;
+	left: 4.5em;
+	font-size: 5em;
+}
