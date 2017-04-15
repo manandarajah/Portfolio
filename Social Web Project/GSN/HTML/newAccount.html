@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!--Form to create new account-->
+<html>
+    <head>
+        <title>Register</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="../CSS/commonstyle.css">
+        <style>
+            body {
+                overflow-x: hidden;
+            }
+            
+            h1 {
+                text-decoration: none;
+            }
+            
+            a {
+                padding-bottom: 2em;
+            }
+            
+            form {
+                position: relative;
+                left: 35em;
+                top: 10em;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Create new account</h1>
+        <form method="POST" action="../PHP/newAccount.php">
+            <a>Username: <input name="username" type="text" required></a><br>
+            <a>Password: <input name="pass" type="password" required></a><br>
+            <a>Confirm Password: <input name="cpass" type="password" required></a><br>
+            <a>First Name: <input name="fname" type="text" required></a><br>
+            <a>Last Name: <input name="lname" type="text" required></a><br>
+            <a>E-mail Address: <input name="email" type="email" required></a><br>
+            <a>
+                Gender: <select name="gender" required>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </a><br>
+            <input type="submit" value="Create Account">
+        </form>
+    </body>
+</html>

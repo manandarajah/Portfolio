@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!--Log in page-->
+<html>
+    <head>
+        <title>Welcome to Graphical Social Networking (GSN)</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="CSS/commonstyle.css">
+        <style>
+            h2 {
+                position: relative;
+                left: 15em;
+                color: white;
+            }
+            
+            h3 {
+                position: relative;
+                left: 18.5em;
+                color: white;
+            }
+            
+            form {
+                position: relative;
+                left: 22em;
+            }
+        </style>
+		<script>
+			function highlightForgotPass() {
+				document.getElementsByTagName("a")[2].style.color = "blue";
+			}
+			
+			function eraseForgotPass() {
+				document.getElementsByTagName("a")[2].style.color = "white";
+			}
+		</script>
+    </head>
+    <body>
+        <h1>Welcome to Graphical Social Networking (GSN)</h1>
+        <h3>Please log in to continue</h3>
+        <form method="POST" action="PHP/login.php">
+            <a>Username: <input name="username" type="text" placeholder="Enter username" required></a><br>
+            <a>Password: <input name="password" type="password" placeholder="Password" required></a><br>
+            <input type="submit" value="Log in">
+            &nbsp;&nbsp;&nbsp;<a href="http://localhost/GSN/PHP/forgotUserPass.php" onmouseover="highlightForgotPass();" onmouseout="eraseForgotPass();">Forgot username/password</a>
+        </form>
+        <h2>New to this site?</h2>
+        <form method="POST" action="HTML/newAccount.html">
+            <input type="submit" value="New Account">
+        </form>
+    </body>
+</html>
