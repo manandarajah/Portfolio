@@ -1,0 +1,1 @@
+include 'desktop', 'android', ':libs:inapp-billing:anjlab-iabv3-1.0.39', 'ios', 'html', 'core'
