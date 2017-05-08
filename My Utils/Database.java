@@ -21,7 +21,7 @@ public abstract class Database implements AutoCloseable {
         
         try (PreparedStatement stmt = CONN.prepareStatement(sql)) {
             
-            if (sql.contains("?") && list != null) {
+            if (sql.contains("?")) {
                 int count = 1;
                 
                 for (Object o : list) {
