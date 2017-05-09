@@ -22,11 +22,11 @@ public abstract class Database implements AutoCloseable {
         try (PreparedStatement stmt = CONN.prepareStatement(sql)) {
             
             if (sql.contains("?")) {
-                int count = 1;
+                int count = 0;
                 
                 for (Object o : list) {
-                    stmt.setObject(count, o);
                     count++;
+                    stmt.setObject(count, o);
                 }
             }
             rs = stmt.executeQuery();
