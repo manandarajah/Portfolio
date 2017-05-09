@@ -29,18 +29,16 @@ public abstract class Database implements AutoCloseable {
                     stmt.setObject(count, o);
                 }
             }
-            rs = stmt.executeQuery();
             
-            if (rs == null && (sql.contains("insert") 
+            if (sql.contains("insert") 
                     || sql.contains("INSERT")
                     || sql.contains("delete")
-                    || sql.contains("DELETE")))
+                    || sql.contains("DELETE"))
+                return stmt.execute();
+            else if (sql.contains("select") || sql.contains("SELECT")) {
+                rs = stmt.executeQuery();
                 return true;
-            
-            else if (rs != null && (sql.contains("select") || sql.contains("SELECT")))
-                return true;
-        } catch (Exception e) {
-            System.out.println("Error: "+e.getMessage());
+            }
         }
         return false;
     }
