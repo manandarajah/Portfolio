@@ -1,5 +1,5 @@
 # Mugiesshan Anandarajah's Portfolio
-#### Welcome to my GitHub page! Here is where you'll find proof of my passion for software development!
+#### Welcome to my GitHub page! Here is where you'll see my passion for software development!
 
 #### Projects: 
 
