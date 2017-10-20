@@ -8,6 +8,7 @@ public class Projectile : MonoBehaviour {
     private TextMesh playerScore, compScore;
     private bool hit = false;
 
+    //Runs event when bullet collides with a game object. If object is a tank, then player score increments and enemy tank respawns
     public void OnCollisionEnter(Collision other)
     {
         SoundMgr.TankDamage.Play();
