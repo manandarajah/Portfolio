@@ -33,7 +33,9 @@ public abstract class Database implements AutoCloseable {
             if (sql.contains("insert") 
                     || sql.contains("INSERT")
                     || sql.contains("delete")
-                    || sql.contains("DELETE"))
+                    || sql.contains("DELETE")
+                    || sql.contains("update")
+                    || sql.contains("UPDATE"))
                 return stmt.executeUpdate() == 1;
             else if (sql.contains("select") || sql.contains("SELECT")) {
                 rs = stmt.executeQuery();
