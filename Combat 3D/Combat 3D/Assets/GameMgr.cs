@@ -22,6 +22,7 @@ public class GameMgr : MonoBehaviour {
             button.onClick.AddListener(LoadGameScreen);
 	}
 
+    //Loads Gameplay Screen
     public void LoadGameScreen()
     {
         if (button.GetComponentInChildren<Text>().text == "Start Game")
@@ -34,12 +35,14 @@ public class GameMgr : MonoBehaviour {
         }
     }
 
+    //Loads last scene when the game ends, and displays who wins
     public static void LoadEndGame(int playerScore)
     {
         SceneManager.LoadScene("End Game Screen");
         StatusMessage.SetStatus(playerScore, MatchPoint);
     }
-	
+    
+    //Respawns game object when it gets hit
     public static void Respawn(GameObject go)
     {
         go.transform.Translate(
