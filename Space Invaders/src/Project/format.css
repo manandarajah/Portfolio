@@ -1,0 +1,13 @@
+#paneText{
+    -fx-font-family: "Bradley Hand ITC";
+    -fx-font-size: 30px;
+    -fx-stroke: red;
+    -fx-underline: true;
+}
+#backgroundImage{
+    -fx-background-image:url("StartScreen.png");
+}
+.root{
+    -fx-background-color:#DADECA;
+}
+    
