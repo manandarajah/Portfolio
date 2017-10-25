@@ -6,8 +6,8 @@ public class Hero : HeroControls {
     
     private MeshCollider[] colliders;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
         rb = this.GetComponent<Rigidbody>();
         anim = this.GetComponent<Animator>();
         camera = GameObject.Find("Main Camera").GetComponent<Camera>();
@@ -43,9 +43,9 @@ public class Hero : HeroControls {
         }
     }
 	
-	// Update is called once per frame
-	void Update () {
+    // Update is called once per frame
+    void Update () {
         HeroControllerUpdate();
         HeroUpdate();
-	}
+    }
 }
