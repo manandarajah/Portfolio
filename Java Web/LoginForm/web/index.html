@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Log In</title>
+        <link rel="stylesheet" type="text/css" href="login.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form method="POST" action="LogIn">
+            Username: <input type="text" name="username" placeholder="Enter Username" required><br>
+            Password: <input type="password" name="password" placeholder="Enter Password" required><br>
+            <input type="submit" value="Login">
+        </form>
+        <hr>
+        <form name="SignUp" method="POST" action="SignUp">
+            Real Name: <input type="text" name="name" required><br>
+            New Username: <input type="text" name="username" required><br>
+            Password: <input type="password" name="password" required><br>
+            Confirm Password: <input type="password" name="confirmpassword" required><br>
+            <input type="submit" value="Create Account">
+        </form>
+    </body>
+</html>

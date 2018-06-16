@@ -1,0 +1,33 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18-Oct-2015, 1:26:42 PM
+    Author     : Mugiesshan
+*/
+/*Food Table style format*/
+html {
+    background-color: #660033;
+}
+
+form,table,h1,div {
+    text-align: center;
+    color: #FF99FF;
+}
+
+input,select {
+    background-color: #FFCCFF;
+    margin-top: 1em;
+}
+
+table {
+    position: relative;
+    left: 35em;
+}
+
+div {
+    border: thin solid #FFCCFF;
+    overflow-x: hidden;
+}

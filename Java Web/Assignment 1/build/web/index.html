@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--Food Table html class-->
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Food Table</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Food Table</h1>
+        <table>
+            <tr><th>Percentage</th><th>Food Group</th></tr>
+            <tr style='color: #00FF00;'><td>0%</td><td>Fruits & Vegetables</td></tr>
+            <tr style='color: #CC6600;'><td>0%</td><td>Grains & Products</td></tr>
+            <tr style='color: yellow;'><td>0%</td><td>Milk & Alternatives</td></tr>
+            <tr style='color: red;'><td>0%</td><td>Meat & Alternatives</td></tr>
+        </table>
+        <form method="POST" action="FoodSubmit">
+            Food Eaten: <input type="text" name="food" required><br>
+            Food Group: <select name="foodgroup" required>
+                            <option selected value="Fruits & Vegetables">Fruits & Vegetables</option>
+                            <option value="Grains & Products">Grains & Products</option>
+                            <option value="Milk & Alternatives">Milk & Alternatives</option>
+                            <option value="Meat & Alternatives">Meat & Alternatives</option>
+                        </select><br>
+            Servings: <input type="number" name="servings" required><br>
+            <input type="submit">
+            <div>
+                <table>
+                    <tr><th>Date</th><th>Description</th><th>Food Group</th><th>Servings</th></tr>
+                </table>
+            </div>
+        </form>
+    </body>
+</html>
