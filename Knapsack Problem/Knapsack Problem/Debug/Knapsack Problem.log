@@ -1,0 +1,8 @@
+﻿  Knapsack Problem.cpp
+c:\users\my-computer-g\source\repos\knapsack problem\knapsack problem\knapsack problem.cpp(25): warning C4018: '<': signed/unsigned mismatch
+c:\users\my-computer-g\source\repos\knapsack problem\knapsack problem\knapsack problem.cpp(26): warning C4018: '<': signed/unsigned mismatch
+c:\users\my-computer-g\source\repos\knapsack problem\knapsack problem\knapsack problem.cpp(31): warning C4018: '<': signed/unsigned mismatch
+c:\users\my-computer-g\source\repos\knapsack problem\knapsack problem\knapsack problem.cpp(32): warning C4018: '<': signed/unsigned mismatch
+c:\users\my-computer-g\source\repos\knapsack problem\knapsack problem\knapsack problem.cpp(56): warning C4018: '<': signed/unsigned mismatch
+c:\users\my-computer-g\source\repos\knapsack problem\knapsack problem\knapsack problem.cpp(57): warning C4018: '<': signed/unsigned mismatch
+  Knapsack Problem.vcxproj -> C:\Users\My-Computer-G\source\repos\Knapsack Problem\Debug\Knapsack Problem.exe
