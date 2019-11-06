@@ -1,0 +1,95 @@
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\ApplicationInsights.config
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\Intro to ASP.NET MVC.dll.config
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\Intro to ASP.NET MVC.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\Intro to ASP.NET MVC.pdb
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\csc.exe
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\csc.exe.config
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\csc.rsp
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\csi.exe
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\csi.exe.config
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\csi.rsp
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\System.AppContext.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\System.Console.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\System.IO.Compression.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\System.IO.Pipes.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\System.Security.Claims.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\System.ValueTuple.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\System.Xml.XPath.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\vbc.exe
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\vbc.exe.config
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\vbc.rsp
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\VBCSCompiler.exe
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\Antlr3.Runtime.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\Microsoft.AI.Web.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\Newtonsoft.Json.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\System.Web.Helpers.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\System.Web.Mvc.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\System.Web.Optimization.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\System.Web.Razor.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\System.Web.WebPages.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\WebGrease.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\System.Web.Helpers.xml
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\System.Web.Mvc.xml
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\System.Web.Optimization.xml
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\System.Web.Razor.xml
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\System.Web.WebPages.xml
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\Newtonsoft.Json.xml
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\Antlr3.Runtime.pdb
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\Microsoft.AI.Web.xml
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\obj\Debug\Intro to ASP.NET MVC.csproj.CoreCompileInputs.cache
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\obj\Debug\Intro to ASP.NET MVC.csproj.CopyComplete
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\obj\Debug\Intro to ASP.NET MVC.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\obj\Debug\Intro to ASP.NET MVC.pdb
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\EntityFramework.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\EntityFramework.SqlServer.dll
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\EntityFramework.xml
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\bin\EntityFramework.SqlServer.xml
+C:\Users\My-Computer-G\source\repos\Intro to ASP.NET MVC\Intro to ASP.NET MVC\obj\Debug\Intro to ASP.NET MVC.csprojAssemblyReference.cache

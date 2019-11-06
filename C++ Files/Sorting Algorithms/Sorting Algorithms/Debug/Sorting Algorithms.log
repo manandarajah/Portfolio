@@ -1,0 +1,4 @@
+﻿  pch.cpp
+  Sorting Algorithms.cpp
+c:\users\my-computer-g\source\repos\sorting algorithms\sorting algorithms\sorting algorithms.cpp(128): warning C4715: 'binary_search': not all control paths return a value
+LINK : fatal error LNK1104: cannot open file 'C:\Users\My-Computer-G\source\repos\Sorting Algorithms\Debug\Sorting Algorithms.exe'
