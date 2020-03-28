@@ -1,0 +1,11 @@
+This is a prototype of what the first game series would look like. You are a medium with powers to fight and exorcise various ghosts
+
+How I envisioned this game
+
+-Instead of just running through enemies with a forcefield like in this prototype, a character would collect a ritualistic powerup, and while using that, would use regular hand to hand combat to interact with various ghosts under a specific period. After that period, he would have to collect that item again
+
+-Instead of ghosts just coming directly at him like in the prototype, the game could include a jump scare mechanic that scares the character into quickly defending himself on the spot before the ghost can kill him
+
+-Instead of running around in the field, the game will have levels inside houses where the player explores possible areas
+
+-The player also has the ability to investigate, gather clues, and put together connections
