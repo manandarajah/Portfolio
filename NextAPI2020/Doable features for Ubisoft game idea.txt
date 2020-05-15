@@ -1,0 +1,84 @@
+Player:
+
+Must haves:
+	Line laser - a laser you shoot in a forward direction. It will be wide until it shrinks to get rid of the laser
+
+	Bullets - small bullets you can send shooting at enemies. This will do minimal damage
+
+	Shock wave - One shot that will send electric voltage through a collided object. Shoot it at an enemy to stabilize it. This could also be used to hit a malfunctioning machine to take out multiple enemies. Need a timer bar to space it out. 10 seconds should do the trick here
+
+	Forcefield - Temporary invincible shield activate for a short time period
+
+	Dash - so the player can dodge
+
+	Teleport - player can teleport anywhere within the level. However after using teleport. The trick here is the the longer you use it, the longer it'll take to recover. Maximum period here is 15 seconds.
+
+	Interacts, pickups, and throw objects - Can pick up one object at a time and can throw said object
+
+optional: 
+	-jump over
+	-grenade atomic bomb
+
+Must have object
+
+Walls:
+
+Interact with objects to prevent player from move. Optional, can stop projectiles at this specific point if collided with one
+
+Enemy types:
+
+Ships: Player can't attack ship directly. The ship can be destroyed via malfunctioning machine or atomic bomb
+
+Level design:
+	Easy: Make a window sized level design so you don't have to translate the camera, just player, game objects, and enemies
+
+	Intermediate: Get camera to follow player
+
+Pickups & Items
+	-Mirror - create a clone of yourself and double your kills. Enemies cannot attack the clone. The mirror feature is timed for 30 seconds. Activate on direct contact.
+	-Shockwave bomb - a rare weapon used to severely damage enemies within range. Can collect up to 2 bombs max. Activate by player input
+	-Insta kill laser - a blue color laser that directly kills enemies on hit. Timed for 10 seconds. Players have a 50% chance to collect this item.
+Activated by player input.
+
+AI:
+	The AI will generaly close a certain distance, and than shoot the player. It will have a stopping distance and death state before it could get close to the player.
+	
+	Enemy types:
+		Regular ships: Ships that shoots bullets at a distance
+		Gradual ship: A ship whos damage is determined by how much it closes the gap. The closer it is to the player, the more damage it deals
+		Long-shot: A ship that shoots and deals damage like a shotgun.
+		Beam-shot: A rare enemy type that shoots one long ass beam across the distance. These beams are high damage to instal kill, and once release can block player's laser attacks. However, it takes up to 5 seconds for it to fully build up. Destroy it before it destroys you. If time runs out, get out of the way.
+		
+	
+
+Game concept ideas:
+
+Timeline wars: You are a space warrior who has gotten lost in time. You need to traverse through evolutionary levels to get back to your current timeline and defeat the evil boss operating a spaceship.
+
+Level 1 - cavemen. These men are brutally strong due to scarce resources, so fighting them ahead on isn't wise. Best strategy is to pick up object and throw it at them. All object have the same damage. Reward is laser bullets and grenade
+
+Level 2 - Boomer world. This is where your enemies are the corrupt military. Not as strong as the cavemen, but are great shooters. Your reward is obtaining your laser gun and shockwave.
+
+Level 3 - You're back to your homeland, only to find it in war with space ships. This is the final level
+
+
+Ship's Grounders: You play as a space cadet, infiltrating a giant space ship. You go through levels solving various puzzles to traverse to the next level. There are also some levels where you'll have to fight. Enemy types here are tanks and planes. 
+
+Tanks you can attack directly, but don't stay in their line of fire.
+
+Planes are above ground. You can't attack them directly, but you can stand near them to avoid being attacked by incoming bullets. It's when you're at a specific distance do they post a problem. The only way to attack them is through grenades, malfunctioning machine.
+
+You can resize yourself to become big, but you'll only be able to attack in air object. If you're ground size, you can attack grounded regular sized object, but not mid-air and mouse size object. Shrinking plays a role in the type of enemies you will eliminate.
+
+512 384
+527 407
+
+1039 791
+
+Technical problems that need to be resolved
+
+1. When I move the character, the bullets are fired with the bullet forward in the right diretion. But when I move and stop at a certain direction, it changes the bullet's direction as if it were going up, yet still following the direction I was previously facing. After looking into this, the X and Y values of the joystick are both increasing despite me leading the joystick to one direction. I've noticed that the direction I want to go is up to the max and the direction I'm not going in is significantly low, even if it is over 0.5f in value. That means it's simultaneously checking other inputs even if I'm not giving it that input. So within the other inputs I need it to check if the joystick is far any direction and make the changes necessary. RESOLVED. The problem was within the AI code. I accidently referenced player 1 instead of player 2.
+
+2. Bullet and pickup collision detection. Fundamentally they're working, but they're faulty. I need to somehow convert the virtual coordinates of both bullet and pickup, and use that to find overlapping collisions. With the way it is set up right now, it's using the virtual coordinates of position and height, and is detecting collision between two objects that don't seem colliding at all. Fix this. RESOLVED MOSTLY. It's functioning but I suspect not fully. Come back to this later. There's a major yet maskable bug in the game. The collision works when you touch the sprite, but it's also detecting collision off of the sprite but mostly within the vertical axis. If I rotate the sprite to the front, it'll look like the game is working. Find out what's wrong with this. Do more research into collision detection or study the API more. I have to find a way to work the pixels to represent the sprite drawn so collision detection works out. REVISIT THIS BUG.
+
+Sprite width = 140, height = 140

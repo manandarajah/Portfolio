@@ -1,0 +1,7 @@
+﻿  GameTest.cpp
+c:\users\my-computer-g\documents\nextapi2020\gametest\gametest.cpp(342): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\my-computer-g\documents\nextapi2020\gametest\gametest.cpp(472): warning C4101: 'bullet_w': unreferenced local variable
+c:\users\my-computer-g\documents\nextapi2020\gametest\gametest.cpp(472): warning C4101: 'bullet_h': unreferenced local variable
+  GameTest.vcxproj -> C:\Users\My-Computer-G\Documents\NextAPI2020\x64\Debug\GameTest.exe
+  C:\Users\My-Computer-G\Documents\NextAPI2020\\GameTest\glut\bin\x64\freeglut.dll
+  1 File(s) copied
